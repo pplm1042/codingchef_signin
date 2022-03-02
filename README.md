@@ -1,16 +1,8 @@
-# signin2
+# 회원가입 UI 구성
+* 자주사용하는 Button 메소드를 리펙토링을 통해 코드의 재사용성을 높임
 
-A new Flutter application.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Future, async, Await 정리
+* Future 클래스는 비동기 작업을 할 때 사용
+* Future 는 일정 소요시간 후에 실제 데이터나 에러를 반환
+* async 클래스는 await메서드를 가지고 있음
+  * await로 선언된 메서드는 응답이 처리될 때까지 대기
